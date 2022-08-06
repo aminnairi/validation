@@ -13,7 +13,7 @@
     "url": "https://github.com/aminnairi/validation.git"
   },
   "files": [
-    "./build"
+    "build"
   ],
   "keywords": [
     "validation",

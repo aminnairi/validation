@@ -2,6 +2,7 @@
   "include": [
     "sources"
   ],
+  "exclude": ["sources/**/*.test.ts"],
   "compilerOptions": {
     "target": "es3",
     "module": "commonjs",
