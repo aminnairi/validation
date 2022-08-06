@@ -1,0 +1,51 @@
+{
+  "homepage": "https://github.com/aminnairi/validation#readme",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/aminnairi/validation/issues"
+  },
+  "author": {
+    "name": "Amin NAIRI",
+    "url": "https://github.com/aminnairi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aminnairi/validation.git"
+  },
+  "files": [
+    "./build"
+  ],
+  "keywords": [
+    "validation",
+    "form",
+    "check",
+    "verification",
+    "validity"
+  ],
+  "module": "build/index.module.js",
+  "browser": "build/index.browser.js",
+  "main": "build/index.common.js",
+  "name": "@aminnairi/validation",
+  "types": "build/index.d.ts",
+  "version": "0.1.0",
+  "description": "Validation library for forms",
+  "scripts": {
+    "build": "rollup --config rollup.config.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "8.3.4",
+    "@types/jest": "28.1.6",
+    "@types/node": "18.6.3",
+    "jest": "28.1.3",
+    "rollup": "2.77.2",
+    "rollup-plugin-delete": "2.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "28.0.7",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "ts-node": "10.9.1"
+  }
+}
