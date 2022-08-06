@@ -27,7 +27,7 @@
   "main": "build/index.common.js",
   "name": "@aminnairi/validation",
   "types": "build/index.d.ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Validation library for forms",
   "scripts": {
     "build": "rollup --config rollup.config.ts",
